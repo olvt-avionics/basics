@@ -7,7 +7,8 @@ Each one of the exercises in this report will show you what you need to do to wr
 To start each of you will have to create a branch with hello world program, written in C. within the ex0. Then you need to actually push the branch to the origin.
 
 Resources:
-
+ - [Git Flow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
+ - [Git Branches](https://git-scm.com/book/en/v1/Git-Branching-What-a-Branch-Is)
 ## ex1 [How to Input and Output]:
 
 ex1 is an exercise to make you use input output streams. Please take the input file and output the text and save it to the git repository. It must not take more than a second to run your program.
