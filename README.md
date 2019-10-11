@@ -14,8 +14,8 @@ ex1 is an exercise to make you use input output streams. Please take the input f
 
 Resources:
 
-- [Input Output streams Wikipeiada](<https://en.wikipedia.org/wiki/Input/output_(C%2B%2B)>)
-- [cs lecture on how to use io streams](https://courses.cs.vt.edu/cs1044/Notes/C04.IO.pdf)
+- [Input Output Streams Wikipeiada](<https://en.wikipedia.org/wiki/Input/output_(C%2B%2B)>)
+- [CS Lecture On IO Streams](https://courses.cs.vt.edu/cs1044/Notes/C04.IO.pdf)
 
 ## ex2 [How to Performance]:
 
@@ -25,7 +25,7 @@ ex2 is an exercise that is testing your ability to check the performance of your
 
 Resources:
 
-- [Wikipedia performance Testing](https://en.wikipedia.org/wiki/Software_performance_testing)
+- [Wikipedia Performance Testing](https://en.wikipedia.org/wiki/Software_performance_testing)
 
 ## ex3 [Memory Issues]:
 
@@ -35,7 +35,7 @@ ex3 is an exercise to make you look at memory usage. Choose a tool to use to che
 
 Resources:
 
-- [How to use GDB to look at Memeory](https://sourceware.org/gdb/onlinedocs/gdb/Memory.html)
-- [GDB looking at data](ftp://ftp.gnu.org/old-gnu/Manuals/gdb/html_chapter/gdb_9.html)
+- [How to Use GDB to Look at Memeory](https://sourceware.org/gdb/onlinedocs/gdb/Memory.html)
+- [GDB looking at Data](ftp://ftp.gnu.org/old-gnu/Manuals/gdb/html_chapter/gdb_9.html)
 
 Resources:
