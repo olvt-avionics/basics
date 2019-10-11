@@ -13,7 +13,9 @@ Resources:
 ex1 is an exercise to make you use input output streams. Please take the input file and output the text and save it to the git repository. It must not take more than a second to run your program.
 
 Resources:
-(Input Output streams Wikipeiada)[https://en.wikipedia.org/wiki/Input/output_(C%2B%2B)] (cs lecture on how to use io streams)[https://courses.cs.vt.edu/cs1044/Notes/C04.IO.pdf]
+
+- [Input Output streams Wikipeiada](<https://en.wikipedia.org/wiki/Input/output_(C%2B%2B)>)
+- [cs lecture on how to use io streams](https://courses.cs.vt.edu/cs1044/Notes/C04.IO.pdf)
 
 ## ex2 [How to Performance]:
 
@@ -22,7 +24,8 @@ preface: You will be using a microcontroller sending and receiving values, the p
 ex2 is an exercise that is testing your ability to check the performance of your programs. Take the program that you have from ex1 and perform performance tuning. Choose a tool to use to check the performance of your program and write a paragraph about your choices and why you made it.
 
 Resources:
-(Wikipedia performance Testing)[https://en.wikipedia.org/wiki/Software_performance_testing]
+
+- [Wikipedia performance Testing](https://en.wikipedia.org/wiki/Software_performance_testing)
 
 ## ex3 [Memory Issues]:
 
@@ -31,7 +34,8 @@ preface: On embedded devices you have a finite amount of memory. Keeping down th
 ex3 is an exercise to make you look at memory usage. Choose a tool to use to check the performance of your program and write a paragraph about your choices and why you made it.
 
 Resources:
-(How to use GDB to look at Memeory)[https://sourceware.org/gdb/onlinedocs/gdb/Memory.html]
-(GDB looking at data)[ftp://ftp.gnu.org/old-gnu/Manuals/gdb/html_chapter/gdb_9.html]
+
+- [How to use GDB to look at Memeory](https://sourceware.org/gdb/onlinedocs/gdb/Memory.html)
+- [GDB looking at data](ftp://ftp.gnu.org/old-gnu/Manuals/gdb/html_chapter/gdb_9.html)
 
 Resources:
