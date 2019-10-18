@@ -1,1 +1,1 @@
-Usage: .\ex1.exe [filename]
+I adjusted the program to output the contents of input_file.txt to the command line.
