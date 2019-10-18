@@ -1,30 +1,21 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main(int argc, char** argv)
+int main()
 {
-	if(argc != 2)
+	FILE *fptr;
+	char c;
+	errno_t error = fopen_s(&fptr, "input_file.txt", "r");
+	if(fptr == NULL)
 	{
-		printf("Usage: .\\ex1.exe [filename]\n");
+		printf("Can't open the file. You screwed up\n");
 		return EXIT_FAILURE;
 	}
-	else
+	c = fgetc(fptr);
+	while(c != EOF)
 	{
-		FILE *fptr;
-		char c;
-		errno_t error = fopen_s(&fptr, argv[1], "r");
-		if(fptr == NULL)
-		{
-			printf("Can't open the file. You screwed up\n");
-			return EXIT_FAILURE;
-		}
+		printf("%c", c);
 		c = fgetc(fptr);
-		while(c != EOF)
-		{
-			printf("%c", c);
-			c = fgetc(fptr);
-		}
-		fclose(fptr);
 	}
-	
+	fclose(fptr);
 }
