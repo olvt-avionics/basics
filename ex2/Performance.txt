@@ -1,0 +1,2 @@
+In the evaluation of the performance of my program for exercise 1, I had to first understand what program performance covered. To measure
+the time required for my program to run I utilized
