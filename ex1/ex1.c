@@ -10,13 +10,15 @@
 
 int main()
 {
-    ifstream in;
-    in.open("input_file.txt");
-    int temp;
-    while(!in.isEmpty())
+    FILE* in = fopen("input_file.txt", "r");
+    int i = 0;
+    
+    fscanf(in, "%d", &i);
+    while(!feof(in))
     {
-        getline(in,temp, " ");
-        printf("%d ", temp);
+        printf("%d ",i);
+        fscanf(in, "%d", &i);
     }
-    in.close();
+    
+    fclose(in);
 }
