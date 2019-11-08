@@ -18,4 +18,5 @@ int main()
         getline(in,temp, " ");
         printf("%d ", temp);
     }
+    in.close();
 }
