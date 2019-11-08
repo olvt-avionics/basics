@@ -1,0 +1,1 @@
+I used JMeter for my performance testing for this assignment. I used it to run my program many times in order to figure out a reasonable average for how fast it runs. The average that I calculated over 100 runs was 88.19ms. This is well within the 1 second goal that was given in ex1.
