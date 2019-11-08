@@ -1,0 +1,7 @@
+After reading about performance testing, I was unsure about the scope of test required
+for such a simple program. Many tests appear to simulate hundreds or thousands of concurrent
+users, a situation that seems unnecessary to tets for simple file input/output and communication
+between a microcontroller and only a handful of sensors. Because of this, I decided to test
+for speed as best as possible. The ex1 code was required to run in less than 1 second. Using the chrono
+library's steady clock, I ran the program repeatedly and found that after 10 executions, the code
+had never exceeded 35 milliseconds in run time, making the program sufficiently fast.
