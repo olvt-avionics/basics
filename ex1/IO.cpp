@@ -3,7 +3,6 @@
 using namespace std; 
 
 string value;
-int i;
 
 int main(void) 
 { 
