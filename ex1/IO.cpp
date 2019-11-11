@@ -4,7 +4,7 @@ using namespace std;
 
 string value;
 
-int main(void) 
+int main() 
 { 
     ifstream inFile;
     inFile.open("input_file.txt");

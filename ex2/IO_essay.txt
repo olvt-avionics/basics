@@ -1,0 +1,5 @@
+For my performance testing of the ex1 program, I used the diagnostic tools provided by MS Visual Studio 2019. In particular,
+I checked the program runtime which was 54.5ms, far less than the required 1 second runtime. I also check CPU usage of the
+main function which was 71.88% of the total usage. This makes sense as the while loop is where input_file.txt is read and
+outputted. The total heap allocation for the program was 67.52KB, with an increase of 8.71KB after once the while loop began
+and the input stream was opened.
