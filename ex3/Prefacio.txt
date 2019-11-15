@@ -1,1 +1,3 @@
-
+In my analysis of my ex1 program for memory efficiencies, I used the valgrind tool. I used this in my 
+analysis of the program using the memcheck tool that is a part of the valgrind tool. In using this I was
+able to see the stack size that my program uses, which can serve as a representation of the max amount of memory that the program uses.
