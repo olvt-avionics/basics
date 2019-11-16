@@ -1,0 +1,1 @@
+For this exercise, I used a tool called heaptrack to analyze the program's memory usage. Heaptrack showed my the the total memory usage as well as the memory usage of various functions, and which function used the most memory. This would be useful for tracking down places in the code to optimize memory usage. 
