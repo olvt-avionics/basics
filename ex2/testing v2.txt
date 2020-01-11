@@ -1,0 +1,3 @@
+I greatly improved upon my ability to test C++ code by learning more about the environment in which testing occurs. By running my ex2.cpp code in a WSL environment, I was able to more accurately measure the program's speed.
+I also implemented loops that measured the I/O speed over many iterations, producing a more precise average time. In all, I determined that my code can be started up in less than one millisecond, and the I/O segment runs in 
+less than 10 milliseconds (but averages tended towards 1-2 milliseconds with repeated executions). 
