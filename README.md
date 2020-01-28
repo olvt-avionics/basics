@@ -40,3 +40,10 @@ Resources:
 - [GDB looking at Data](ftp://ftp.gnu.org/old-gnu/Manuals/gdb/html_chapter/gdb_9.html)
 
 Resources:
+## ex4 [How to use Coding A Style-Guide]:
+
+Please read: https://developers.google.com/style to make sure that you read through at least https://developers.google.com/style/highlights and https://developers.google.com/style/api-reference-comments before continuing on to the next exercise. The point of this exercise is to.
+
+## ex5 [Testing Code]:
+
+Unit testing code is imparitive to the work that we do, for if we messed up people cod die. Try looking for a C based unit testing suite and try it out. cUnit, GNU Autounit, and Unity.
