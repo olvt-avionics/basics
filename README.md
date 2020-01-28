@@ -42,7 +42,7 @@ Resources:
 Resources:
 ## ex4 [How to use Coding A Style-Guide]:
 
-Please read: https://developers.google.com/style to make sure that you read through at least https://developers.google.com/style/highlights and https://developers.google.com/style/api-reference-comments before continuing on to the next exercise. The point of this exercise is to.
+Please read: [Google Style Guide](https://developers.google.com/style) to make sure that you read through at least [Google Style Guide](https://developers.google.com/style/highlights) and [Google API Reference Comments](https://developers.google.com/style/api-reference-comments) before continuing on to the next exercise. The point of this exercise is to.
 
 ## ex5 [Testing Code]:
 
