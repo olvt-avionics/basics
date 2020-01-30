@@ -1,21 +1,14 @@
-//
-//  ex1.c
-//  
-//
-//  Created by Janak Majeethia on 11/8/19.
-//
-
 #include <stdio.h>
-#include <fstream>
 
 int main()
 {
-    ifstream in;
-    in.open("input_file.txt");
-    int temp;
-    while(!in.isEmpty())
+    FILE* input;
+    input = fopen("input_file.txt");
+	
+	char c = fgetc(input);
+    while(c != EOF)
     {
-        getline(in,temp, " ");
-        printf("%d ", temp);
+        printf("%c ", c);
+		c = fgetc(input);
     }
 }
