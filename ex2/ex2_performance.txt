@@ -1,0 +1,10 @@
+	I'd want to run a test that tries to find the maximum amount of data that could be read from an input file with performance
+	from the beginning of the read staying consistent or getting better towards the end of the read. Hence, I would want some
+	sort of maximum capacity testing to ensure that I know just how much data can be inside the input file before the performance
+	of my program begins to gradually decline. However, it would make more sense to simulate how much data will be in the file
+	in real-time. Hence, load testing and peak load testing would be of the highest priority. Stress testing would also be
+	good to run if at all possible. I chose these load tests because they can best simulate the actual environment I would
+	want my program to run in by simulating differing loads. The peak load will ensure that the program can still run at maximum
+	capacity times. The other tests, from what I read, don't seem to fit well with ensuring that this program works well.
+	The program only reads and outputs a file with data. The biggest priority is making sure that any amount of data in the
+	file can be read with quick execution.
