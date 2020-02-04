@@ -47,3 +47,43 @@ Please read: [Google Style Guide](https://developers.google.com/style) to make s
 ## ex5 [Testing Code]:
 
 Unit testing code is imparitive to the work that we do, for if we messed up people cod die. Try looking for a C based unit testing suite and try it out. cUnit, GNU Autounit, and Unity.
+
+## ex6 [Queues]:
+
+Please write a C++ application that uses ["queues"](https://en.cppreference.com/w/cpp/container/queue) to send data from one part of the application to another for adding and then writing this data to a file. An example of somthing simlar to what I am looking for is bellow.
+
+
+```
+int main(){
+    std::queue Q; /* Queue For storing values to transfer between parts of code */
+    int i = 0; /* A index that is used as data for the queue. */
+    int data = 0; /* a data varible that is used to store values that come from the queue */
+
+    while( /* Some condition */){
+        Q.push(i);
+        i++;
+    }
+
+    while( /* Some other condition */){
+        data = Q.front();
+        /*Write Data to File*/
+        Q.pop();
+    }
+
+    return 0;
+}
+```
+
+## ex7 [Blocking and Non-Blockin]:
+
+There are two different types of code blocking and non-blocking code. Plesae, do research on the difference between blocking and non-blocking code. This is technically tied into the previous exercise in the way that non-blockin methods are usally used within mulithreaded applications which will be gone over within the exercise next week. Write a couple of sentences about the difference between a blocking and non-blocking function.
+
+### Resources:
+ * [example of "research"](https://stackoverflow.com/questions/34119315/non-blocking-programming-in-c-for-beginner)
+ * ["Blocking and Non Blocking Function Calls"](https://saimulticorecomputing.wordpress.com/2014/06/25/blocking-and-non-blocking-function-calls/)
+
+## ex8 [Multithreading]:
+## ex9 [What is an RTOS]:
+## ex10 [Setting up FreeRTOS Simulator]:
+## ex11 [What is an ISR]:
+## ex12 [Processing Data]:
