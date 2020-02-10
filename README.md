@@ -93,6 +93,16 @@ Please be sure to write this application in C++ it will save you a lot of time a
 Write a c++ application that sends data over queues to be writen to files. There should be two, or more, threads for this application. One thread should be making and sending data to the queue in a non-blocking manner, and the other thread should be reading data from the queue and writing data in a blocking manner.
 
 ## ex9 [What is an RTOS]:
+
+A real time operating system is a system that runs a sets of jobs based on a schedulre. This system is based on the idea of timelyness. Please go and do some research on the purpouse of using a real time operating system and explain why we are usin one on our team for our rocket project.
+
 ## ex10 [Setting up FreeRTOS Simulator]:
+
+
+
 ## ex11 [What is an ISR]:
+
+
+
 ## ex12 [Processing Data]:
+
