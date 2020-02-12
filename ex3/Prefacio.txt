@@ -1,0 +1,3 @@
+In my analysis of my ex1 program for memory efficiencies, I used the valgrind tool. I used this in my 
+analysis of the program using the massif tool that is a part of valgrind. In using this I was
+able to see the size of the heap that the program uses. This can serve as a representation of the amount of RAM it is allocating at a given time. It shows that the peak heap allocation of my program is 1,168Bytes at peak. This is with 568, being used by the program itself, with extra of 16B being used administratively.
