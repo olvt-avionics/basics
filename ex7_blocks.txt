@@ -1,3 +1,0 @@
-A blocking function is one that halts any sort of response from another function until it finishes its actions.
-A non-blocking function allows for a response from another function while simultaneously carrying out the next actions in line.
-Apparently, some people use synchronous & asynchronous to relate these but it depends on the programmer?
