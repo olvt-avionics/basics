@@ -95,14 +95,3 @@ Write a c++ application that sends data over queues to be writen to files. There
 ## ex9 [What is an RTOS]:
 
 A real time operating system is a system that runs a sets of jobs based on a scheduler. This system is based on the idea of timelyness. Please go and do some research on the purpouse of using a real time operating system and explain why we are using gone on our team for our rocket project.
-
-## ex10 [Setting up FreeRTOS Simulator]:
-
-
-
-## ex11 [What is an ISR]:
-
-
-
-## ex12 [Processing Data]:
-
