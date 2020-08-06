@@ -18,7 +18,7 @@ class Writer {
         void to_file(){
         }
         void to_console(){
-            while(!intern.empty()){
+            while (!intern.empty()){
                 std::cout << intern.front() << "--";
                 intern.pop();
             }

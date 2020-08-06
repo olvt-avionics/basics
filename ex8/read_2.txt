@@ -1,0 +1,6 @@
+Line 1 of input 2
+Line 2 of input 2
+Line 3 of input 2
+Line 4 of input 2
+Line 5 of input 2
+Line 6 of input 2
